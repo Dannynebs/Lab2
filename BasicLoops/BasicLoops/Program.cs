@@ -68,8 +68,10 @@ while (doorLocked != false)
     }
 }
 
-// Keypad Question #5, using variables from previous question.
+// Keypad Question #5, using doorCode from previous question.
 
+doorLocked = true;
+guessCounter = 0;
 do
 {
     Console.WriteLine("Please enter the passcode");
